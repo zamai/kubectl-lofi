@@ -1,0 +1,26 @@
+apiVersion: krew.googlecontainertools.github.com/v1alpha2
+kind: Plugin
+metadata:
+  name: lofi
+spec:
+  version: {{ .TagName }}
+  shortDescription: Play lo-fi beats in your terminal while you kubectl
+  homepage: https://github.com/zamai/kubectl-lofi
+  caveats: |
+    This plugin is macOS-only. It requires audio output support
+    and uses the Oto audio library for playback.
+  platforms:
+  - selector:
+      matchLabels:
+        os: darwin
+        arch: amd64
+    uri: https://github.com/zamai/kubectl-lofi/releases/download/{{ .TagName }}/kubectl-lofi-{{ .TagName }}-darwin-amd64.tar.gz
+    sha256: {{ .Sha256 }}
+    bin: kubectl-lofi
+  - selector:
+      matchLabels:
+        os: darwin
+        arch: arm64
+    uri: https://github.com/zamai/kubectl-lofi/releases/download/{{ .TagName }}/kubectl-lofi-{{ .TagName }}-darwin-arm64.tar.gz
+    sha256: {{ .Sha256 }}
+    bin: kubectl-lofi
