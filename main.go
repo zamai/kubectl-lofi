@@ -10,7 +10,7 @@ import (
 
 func main() {
 	fmt.Print(banner)
-	fmt.Println("  Now playing lo-fi radio...")
+	fmt.Println("  Now playing lo-fi radio... 🎧")
 	fmt.Println("  Press Ctrl+C to stop.")
 	fmt.Println()
 
