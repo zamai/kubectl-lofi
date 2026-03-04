@@ -15,12 +15,12 @@ spec:
         os: darwin
         arch: amd64
     uri: https://github.com/zamai/kubectl-lofi/releases/download/v0.1.0/kubectl-lofi-v0.1.0-darwin-amd64.tar.gz
-    sha256: 807cd3f9ad8cc82ee29931cc41069d1c2add06adb5b36c80a0582c3910606df7
+    sha256: cd866def21086b9fa6cc4ed67be8047842a97b68590f8f897c8cb9c776fc1cc5
     bin: kubectl-lofi
   - selector:
       matchLabels:
         os: darwin
         arch: arm64
     uri: https://github.com/zamai/kubectl-lofi/releases/download/v0.1.0/kubectl-lofi-v0.1.0-darwin-arm64.tar.gz
-    sha256: 3db67dae1cb47fb006c712691c5de69e28a496195f31710e46c5702736384e46
+    sha256: 973fa77449011842d35a277e440233ed47e722b156a2262c3100a0ba8a12d3ba
     bin: kubectl-lofi
