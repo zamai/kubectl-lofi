@@ -2,10 +2,10 @@ package main
 
 const banner = `
   ╔══════════════════════════════════════╗
-  ║  🎵  k u b e c t l   l o - f i  🎵  ║
+  ║  🎵  k u b e c t l   l o - f i  🎵   ║
   ║                                      ║
   ║     ╭───────────────────────╮        ║
-  ║     │  ♪ ♫ ♪ ♫ ♪ ♫ ♪ ♫ ♪  │        ║
+  ║     │  ♪ ♫ ♪ ♫ ♪ ♫ ♪ ♫ ♪    │        ║
   ║     │   beats to mass-      │        ║
   ║     │   scale clusters to   │        ║
   ║     ╰───────────────────────╯        ║
