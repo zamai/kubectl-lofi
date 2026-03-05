@@ -3,7 +3,7 @@ kind: Plugin
 metadata:
   name: lofi
 spec:
-  version: v0.1.1
+  version: v0.1.2
   shortDescription: Play lo-fi beats in your terminal while you kubectl
   homepage: https://github.com/zamai/kubectl-lofi
   caveats: |
@@ -14,13 +14,13 @@ spec:
       matchLabels:
         os: darwin
         arch: amd64
-    uri: https://github.com/zamai/kubectl-lofi/releases/download/v0.1.1/kubectl-lofi-v0.1.1-darwin-amd64.tar.gz
-    sha256: 86571fd6e698deb05ba08c0732adab6c3d560d01da4d219b079351021e2c96af
+    uri: https://github.com/zamai/kubectl-lofi/releases/download/v0.1.2/kubectl-lofi-v0.1.2-darwin-amd64.tar.gz
+    sha256: a2da0de0590ec740a1adf1ba2c40f14750f7918f82ce75b60e47021c56a948d8
     bin: kubectl-lofi
   - selector:
       matchLabels:
         os: darwin
         arch: arm64
-    uri: https://github.com/zamai/kubectl-lofi/releases/download/v0.1.1/kubectl-lofi-v0.1.1-darwin-arm64.tar.gz
-    sha256: d3df61f42ddc6f7aaeda9f2407fdb8b588c083b03426c492507ec0f3927e5314
+    uri: https://github.com/zamai/kubectl-lofi/releases/download/v0.1.2/kubectl-lofi-v0.1.2-darwin-arm64.tar.gz
+    sha256: a4b68fc77079a6aba031cf561d0f082a38ed93ef9640905593ee26310901aef1
     bin: kubectl-lofi
