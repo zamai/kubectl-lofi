@@ -7,8 +7,6 @@ import (
 	"net/http"
 )
 
-const streamURL = "https://usa9.fastcast4u.com/proxy/jamz?mp=/1"
-
 func openStream(ctx context.Context, url string) (io.ReadCloser, error) {
 	req, err := http.NewRequestWithContext(ctx, http.MethodGet, url, nil)
 	if err != nil {
